@@ -4,7 +4,7 @@ using namespace std;	// c++의 여러 내장 루틴을 선언하는 std로 알려진 네임스페이�
 
 class vec3 {		// vec3 클래스 만들기
 public:
-	float v[3][1] = { {2}, {2}, {1} };			// Vector값을 배열로 정렬 (x, y, z)
+	float v[3][1] = { {1}, {1}, {1} };			// Vector값을 배열로 정렬 (x, y, z)
 	float v_col = sizeof(v[0]) / sizeof(float);	// 행벡터값의 크기
 	float v_row = sizeof(v) / sizeof(v[0]);		// 열벡터값의 크기
 	float p[3][3] = { 0 };						// 최종 결과값 저장용
